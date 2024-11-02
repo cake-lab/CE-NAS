@@ -15,9 +15,9 @@ scipy, Botorch, Numpy, cma
 
 ## Run CE-NAS in NasBench201
 
-This experiment is based on the NasBench201 dataset and carbon emission data from ElectricityMap Map. The carbon emission data is available at [ElectricityMap](https://github.com/carbonfirst/CO2Scrap). The NasBench201 dataset is available at [NAS-Bench-201](https://github.com/D-X-Y/NAS-Bench-201), we preprocessed the dataset and provide the data in the [this](./lamoo/tasks/nasbench201/) folder. This experiment leverage different thread to simulate the different GPU resources for the sampling and evaluation process. 
+This experiment is based on the NasBench201 dataset and carbon emission data from ElectricityMap Map. The carbon emission data is available at [ElectricityMap](https://github.com/carbonfirst/CO2Scrap). The NasBench201 dataset is available at [NAS-Bench-201](https://github.com/D-X-Y/NAS-Bench-201), we preprocessed the dataset and provide the data in [this](./lamoo/tasks/nasbench201/) folder. This experiment leverage different thread to simulate the different GPU resources for the sampling and evaluation process. 
 
-The results of the experiment are saved in the [this](./results/RL/) folder. During the experiments, the infomation of MCTS, A3C and the RL states, actions and rewards will be showing in the terminal.
+The results of the experiment are saved in [this](./results/RL/) folder. During the experiments, the infomation of MCTS, A3C and the RL states, actions and rewards will be showing in the terminal.
 
 ### Run experiment command 
 
