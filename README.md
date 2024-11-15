@@ -88,9 +88,9 @@ of current samples in each search iteration.
 Please reference the following publication when using this package. OpenReview <a href="https://openreview.net/pdf?id=v6W55lCkhN">link</a>.
 ```
 @inproceedings{
-anonymous2024cenas,
+zhao2024cenas,
 title={{CE}-{NAS}: An End-to-End Carbon-Efficient Neural Architecture Search Framework},
-author={Anonymous},
+author={Yiyang Zhao and Yunzhuo Liu and Bo Jiang and Tian Guo},
 booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
 year={2024},
 url={https://openreview.net/forum?id=v6W55lCkhN}
